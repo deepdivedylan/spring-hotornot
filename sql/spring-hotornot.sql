@@ -13,5 +13,5 @@ CREATE TABLE rating (
   ratingCaptainId INT UNSIGNED NOT NULL,
   ratingTeaEarlGreyHot TINYINT UNSIGNED NOT NULL,
   FOREIGN KEY(ratingCaptainId) REFERENCES captain(captainId),
-  PRIMARY KEY(ratingCaptainId)
+  PRIMARY KEY(ratingId)
 );
