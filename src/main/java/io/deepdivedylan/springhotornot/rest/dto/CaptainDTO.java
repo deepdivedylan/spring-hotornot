@@ -1,6 +1,6 @@
 package io.deepdivedylan.springhotornot.rest.dto;
 
-public class Captain {
+public class CaptainDTO {
     private Long captainId;
     private String captainName;
     private String captainImage;
