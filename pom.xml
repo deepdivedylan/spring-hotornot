@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.deepdivedylan</groupId>
-    <artifactId>spring-hotornot</artifactId>
+    <artifactId>springhotornot</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
@@ -17,7 +17,7 @@
         <log4j.version>1.2.17</log4j.version>
     </properties>
     <build>
-        <finalName>spring-hotornot</finalName>
+        <finalName>springhotornot</finalName>
         <directory>target</directory>
         <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
         <outputDirectory>target/classes</outputDirectory>
