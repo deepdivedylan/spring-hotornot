@@ -1,5 +1,10 @@
 package io.deepdivedylan.springhotornot.dao;
 
-public interface CaptainDAO {
+import io.deepdivedylan.springhotornot.entities.Captain;
 
+import java.util.List;
+
+public interface CaptainDAO {
+    public Captain getCaptain(Long captainId);
+    public List<Captain> getAllCaptains();
 }
