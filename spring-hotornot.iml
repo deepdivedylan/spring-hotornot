@@ -9,7 +9,12 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext Jdbc" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/applicationContext-jdbc.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/config/mvcConfig.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
